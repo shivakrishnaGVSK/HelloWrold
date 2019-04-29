@@ -1,9 +1,14 @@
 <?xml version = "1.0"?>
-<project name = "sample" basedir = "." default = "notify">
-   <target name = "notify">
+<project name="New Project" basedir="." default = "output">
+
+<target name="compile" >
+       <javac srcdir="." includeantruntime="true" includes="HelloWorld.java" destdir="."></javac>
+</target>
+
+<target name = "output" depends="compile">
 
       <java fork = "true" failonerror = "yes" classname = "HelloWorld">
 
       </java>
-   </target>
+</target>
 </project>
