@@ -5,7 +5,7 @@
        <javac srcdir="." includeantruntime="true" includes="HelloWorld.java" destdir="."></javac>
 </target>
 
-<target name = "build" depends="compile">
+<target name = "bu" depends="compile">
 
       <java fork = "true" failonerror = "yes" classname = "HelloWorld">
 
