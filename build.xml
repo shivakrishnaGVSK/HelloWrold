@@ -13,7 +13,7 @@
 </target>
        
  <target name="download">
-
+ <property environment="env" />
   <property name="url" value="Null" />
   <get src="${url}" dest="${env.WORKSPACE}/HelloWorld.class"/>
   </target>
