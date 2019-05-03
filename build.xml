@@ -12,7 +12,7 @@
       </java>
 </target>
        
- <target name="downloadWebhook">
+ <target name="download">
 
   <property name="url" value="Null" />
   <get src="${url}" dest="${env.WORKSPACE}/HelloWorld.class"/>
