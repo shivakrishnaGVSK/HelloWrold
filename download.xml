@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<project name="New Project1" basedir="." default = "output">
+       
+ <target name="download">
+
+  <property name="url" value="Null" />
+  <get src="${url}" dest="${env.WORKSPACE}/HelloWorld.class"/>
+  </target>
+       
+</project>
